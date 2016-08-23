@@ -1,7 +1,7 @@
 package hust.xican;
 
 import java.util.Scanner;
-/*è¾“å…¥ä¸¤ä¸ªå•è°ƒé€’å¢çš„é“¾è¡¨ï¼Œè¾“å‡ºä¸¤ä¸ªé“¾è¡¨åˆæˆåçš„é“¾è¡¨ï¼Œå½“ç„¶æˆ‘ä»¬éœ€è¦åˆæˆåçš„é“¾è¡¨æ»¡è¶³å•è°ƒä¸å‡è§„åˆ™*/
+/*ÊäÈëÁ½¸öµ¥µ÷µİÔöµÄÁ´±í£¬Êä³öÁ½¸öÁ´±íºÏ³ÉºóµÄÁ´±í£¬µ±È»ÎÒÃÇĞèÒªºÏ³ÉºóµÄÁ´±íÂú×ãµ¥µ÷²»¼õ¹æÔò*/
 public class TwoLinkedList {
 
 	class ListNode {
@@ -20,7 +20,7 @@ public class TwoLinkedList {
 	
 		if(list1==null)return list2;
 		if(list2==null)return list1;
-		//é“¾æ¥list1 and list2
+		//Á´½Ólist1 and list2
         while(list1!=null){
         	 if(list1.next==null)break;
         	list1 = list1.next;
@@ -58,7 +58,7 @@ public class TwoLinkedList {
 	/*public static int [] ssort(int a[]){
 		for(int i=0;i<a.length;i++){
 			int min=a[i];
-			int k=i;//kçš„æœ€åˆå€¼å¿…é¡»æŒ‡å‘æœ€å°çš„é‚£ä¸ªåæ ‡ï¼Œå› ä¸ºåé¢ä¼šå‡ºç°minæœ¬èº«å°±æ˜¯æœ€å°å€¼ï¼Œå³æœ¬èº«ä»¥åŸåæ ‡è¿›è¡Œäº¤æ¢
+			int k=i;//kµÄ×î³õÖµ±ØĞëÖ¸Ïò×îĞ¡µÄÄÇ¸ö×ø±ê£¬ÒòÎªºóÃæ»á³öÏÖmin±¾Éí¾ÍÊÇ×îĞ¡Öµ£¬¼´±¾ÉíÒÔÔ­×ø±ê½øĞĞ½»»»
 			for(int j=i+1;j<a.length;j++){
 				if(a[j]<min){
 					min=a[j];
@@ -73,7 +73,7 @@ public class TwoLinkedList {
 		
 	}
 	*/
-	/*é€’å½’è°ƒç”¨*/
+	/*µİ¹éµ÷ÓÃ*/
 	public ListNode Merge(ListNode list1,ListNode list2) {
 		if(list1==null)return list2;
 		if(list2==null)return list1;
